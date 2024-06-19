@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lab5_simulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lab5_simulation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="401000000001fs"></ZoomEndTime>
+      <Cursor1Time time="3072100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/lab5_simulation/UUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/btnR" type="logic">
+      <obj_property name="ElementShortName">btnR</obj_property>
+      <obj_property name="ObjectShortName">btnR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/btnU" type="logic">
+      <obj_property name="ElementShortName">btnU</obj_property>
+      <obj_property name="ObjectShortName">btnU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/sw" type="array">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/lfsr/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/lfsr/Q" type="array">
+      <obj_property name="ElementShortName">Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/lfsr/rnd" type="array">
+      <obj_property name="ElementShortName">rnd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rnd[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/lfsr/rndXor" type="logic">
+      <obj_property name="ElementShortName">rndXor</obj_property>
+      <obj_property name="ObjectShortName">rndXor</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/time_counter/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/time_counter/Dw" type="logic">
+      <obj_property name="ElementShortName">Dw</obj_property>
+      <obj_property name="ObjectShortName">Dw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/time_counter/D" type="array">
+      <obj_property name="ElementShortName">D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/time_counter/Q" type="array">
+      <obj_property name="ElementShortName">Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/time_counter/DTC" type="logic">
+      <obj_property name="ElementShortName">DTC</obj_property>
+      <obj_property name="ObjectShortName">DTC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/time_counter/LD" type="logic">
+      <obj_property name="ElementShortName">LD</obj_property>
+      <obj_property name="ObjectShortName">LD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/time_counter/UTC0" type="logic">
+      <obj_property name="ElementShortName">UTC0</obj_property>
+      <obj_property name="ObjectShortName">UTC0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/time_counter/UTC1" type="logic">
+      <obj_property name="ElementShortName">UTC1</obj_property>
+      <obj_property name="ObjectShortName">UTC1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/time_counter/DTC0" type="logic">
+      <obj_property name="ElementShortName">DTC0</obj_property>
+      <obj_property name="ObjectShortName">DTC0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/time_counter/DTC1" type="logic">
+      <obj_property name="ElementShortName">DTC1</obj_property>
+      <obj_property name="ObjectShortName">DTC1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/lab5_fsm/Q" type="array">
+      <obj_property name="ElementShortName">Q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/countA/Q" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[3:0]</obj_property>
+      <obj_property name="label">A&apos;s Score</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab5_simulation/UUT/countB/Q" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[3:0]</obj_property>
+      <obj_property name="label">B&apos;s Score</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
