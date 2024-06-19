@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lab6_simulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lab6_simulation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6620111732fs"></ZoomEndTime>
+      <Cursor1Time time="5000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject fp_name="/lab6_simulation/btnU" type="logic">
+      <obj_property name="ElementShortName">btnU</obj_property>
+      <obj_property name="ObjectShortName">btnU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/left" type="logic">
+      <obj_property name="ElementShortName">left</obj_property>
+      <obj_property name="ObjectShortName">left</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/right" type="logic">
+      <obj_property name="ElementShortName">right</obj_property>
+      <obj_property name="ObjectShortName">right</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/clkin" type="logic">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/an" type="array">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/sel" type="array">
+      <obj_property name="ElementShortName">sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/seg" type="array">
+      <obj_property name="ElementShortName">seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/dp" type="logic">
+      <obj_property name="ElementShortName">dp</obj_property>
+      <obj_property name="ObjectShortName">dp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/D7Seg3" type="array">
+      <obj_property name="ElementShortName">D7Seg3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D7Seg3[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/D7Seg2" type="array">
+      <obj_property name="ElementShortName">D7Seg2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D7Seg2[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/D7Seg1" type="array">
+      <obj_property name="ElementShortName">D7Seg1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D7Seg1[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/D7Seg0" type="array">
+      <obj_property name="ElementShortName">D7Seg0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D7Seg0[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/PERIOD" type="array">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/DUTY_CYCLE" type="other">
+      <obj_property name="ElementShortName">DUTY_CYCLE</obj_property>
+      <obj_property name="ObjectShortName">DUTY_CYCLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/OFFSET" type="array">
+      <obj_property name="ElementShortName">OFFSET[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OFFSET[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/Q" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[15:0]</obj_property>
+      <obj_property name="label">TrueQ[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/Sign" type="logic">
+      <obj_property name="ElementShortName">Sign</obj_property>
+      <obj_property name="ObjectShortName">Sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/Add" type="logic">
+      <obj_property name="ElementShortName">Add</obj_property>
+      <obj_property name="ObjectShortName">Add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/Sub" type="logic">
+      <obj_property name="ElementShortName">Sub</obj_property>
+      <obj_property name="ObjectShortName">Sub</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TurkeyCounter/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TurkeyCounter/Up" type="logic">
+      <obj_property name="ElementShortName">Up</obj_property>
+      <obj_property name="ObjectShortName">Up</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TurkeyCounter/Dw" type="logic">
+      <obj_property name="ElementShortName">Dw</obj_property>
+      <obj_property name="ObjectShortName">Dw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TurkeyCounter/D" type="array">
+      <obj_property name="ElementShortName">D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TurkeyCounter/LD" type="logic">
+      <obj_property name="ElementShortName">LD</obj_property>
+      <obj_property name="ObjectShortName">LD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TurkeyCounter/Q" type="array">
+      <obj_property name="ElementShortName">Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TrueSignChanger/A" type="array">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TrueSignChanger/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TrueSignChanger/sub" type="logic">
+      <obj_property name="ElementShortName">sub</obj_property>
+      <obj_property name="ObjectShortName">sub</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TrueSignChanger/S" type="array">
+      <obj_property name="ElementShortName">S[7:0]</obj_property>
+      <obj_property name="ObjectShortName">S[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TrueSignChanger/ovfl" type="logic">
+      <obj_property name="ElementShortName">ovfl</obj_property>
+      <obj_property name="ObjectShortName">ovfl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TrueSignChanger/c0" type="logic">
+      <obj_property name="ElementShortName">c0</obj_property>
+      <obj_property name="ObjectShortName">c0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TrueSignChanger/c1" type="logic">
+      <obj_property name="ElementShortName">c1</obj_property>
+      <obj_property name="ObjectShortName">c1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TrueSignChanger/c2" type="logic">
+      <obj_property name="ElementShortName">c2</obj_property>
+      <obj_property name="ObjectShortName">c2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TrueSignChanger/c3" type="logic">
+      <obj_property name="ElementShortName">c3</obj_property>
+      <obj_property name="ObjectShortName">c3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TrueSignChanger/c4" type="logic">
+      <obj_property name="ElementShortName">c4</obj_property>
+      <obj_property name="ObjectShortName">c4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TrueSignChanger/c5" type="logic">
+      <obj_property name="ElementShortName">c5</obj_property>
+      <obj_property name="ObjectShortName">c5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TrueSignChanger/c6" type="logic">
+      <obj_property name="ElementShortName">c6</obj_property>
+      <obj_property name="ObjectShortName">c6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_simulation/UUT/TrueSignChanger/c7" type="logic">
+      <obj_property name="ElementShortName">c7</obj_property>
+      <obj_property name="ObjectShortName">c7</obj_property>
+   </wvobject>
+</wave_config>
